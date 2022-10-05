@@ -5,12 +5,20 @@
  * 
  * @param string $section : Identifiant de la page pour laquelle on veut une 
  * citation.
+ * @param string $language: Sigle de la langue de citation a utiliser.
  * 
  * @return array : Tableau contenant l'auteur et le texte d'une citation.
  */
-function obtenirCitationAleatoire($section) 
+//verify existing files
+function obtenirCitationAleatoire($section, $language) 
 {
-    $citationsJson = file_get_contents('data/citations-' . $section . '.json');
+    if(file_exists("data/citations-$section-$language.json")){
+
+        $citationsJson = file_get_contents("data/citations-$section-$language.json");
+    }
+    else{
+        $citationsJson = file_get_contents("data/citations-$section-fr.json");
+    }
     $citations = json_decode($citationsJson, true);
     $positionAleatoire = rand(0, count($citations)-1);
     $citation = $citations[$positionAleatoire];

@@ -1,34 +1,18 @@
 [
     {
-        "texte": "Le vin est innocent, l'ivrogne seul est coupable.",
-        "auteur": "Proverbe Russe"
+        "texte": "Either give me more wine or leave me alone.",
+        "auteur": "Rumi"
     },
     {
-        "texte": "Trop ou trop peu de vin interdit la vérité.",
-        "auteur": "Blaise Pascal"
+        "texte": "I cook with wine. Sometimes I even add it to the food.",
+        "auteur": "W. C. Fields"
     },
     {
-        "texte": "Plus il y a de marches, meilleure est la cave.",
-        "auteur": "Proverbe bourguignon"
+        "texte": "The wine in the bottle does not quench thirst.",
+        "auteur": "George Herbert"
     },
     {
-        "texte": "Mettre de l'eau dans son vin, c'est faire de la fausse monnaie.",
-        "auteur": "Michel BOUVIER"
-    },
-    {
-        "texte": "Jésus changeait l'eau en vin. Tu m'étonne que 12 mecs le suivaient partout.",
-        "auteur": "Coluche"
-    },
-    {
-        "texte": "L'homme doit au vin d'être le seul animal à boire sans soif.",
-        "auteur": "Pline l'Ancien"
-    },
-    {
-        "texte": "Cave : on y descend pour se remonter.",
-        "auteur": "Roger La Ferté"
-    },
-    {
-        "texte": "Je bois seulement du champagne à deux occasions. Quand je suis amoureuse et quand je ne le suis pas.",
-        "auteur": "Coco Chanel"
+        "texte": "A bottle of wine begs to be shared; I have never met a miserly wine lover.",
+        "auteur": "Clifton Fadiman"
     }
 ]
